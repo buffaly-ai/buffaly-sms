@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="BasicUtilities">
+			<HintPath>..\\..\\..\\Buffaly.Development\\lib\\BasicUtilities.dll</HintPath>
+		</Reference>
+		<Reference Include="WebAppUtilities">
+			<HintPath>..\\..\\..\\Buffaly.Development\\lib\\WebAppUtilities.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\\..\\..\\Buffaly.Development\\Buffaly.Agent.Common\\Buffaly.Agent.Common.csproj" />
+	</ItemGroup>
+</Project>
