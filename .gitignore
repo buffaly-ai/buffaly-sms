@@ -113,3 +113,8 @@ nuget.config
 Thumbs.db
 desktop.ini
 
+
+# Public source hygiene: generated artifacts and publish output
+**/artifacts/
+**/publish/
+**/bin/Release/**/publish/
